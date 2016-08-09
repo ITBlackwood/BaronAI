@@ -1,8 +1,8 @@
-# MoMMI.
+# BARONAI DISCORD BOT
 
-MoMMI is the bot that will be used on the official [/vg/station13](http://ss13.moe/) Discord server.
+В перспективе, это бот для дискорд сервера [АТМТА СТЕЙШН](http://атмта.рф).
 
-# Dependencies
+# Зависимости
 
 * `python 3.5`
 * [`PyYAML`](http://pyyaml.org/wiki/PyYAML)
