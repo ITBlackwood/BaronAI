@@ -31,7 +31,7 @@ async def issues(msg):
     sender = msg["sender"]
     message = "Issue #%s **%s** by %s: %s" % (issue["number"], msg["action"], sender["login"], issue["html_url"])
     
-    channel = getchannel(getserver(client, "/vg/"), "code-map-sprite")
+    channel = getchannel(getserver(client, "ATMTA-Station"), "coderchat")
     if not channel:
         logger.error("No channel.")
 
@@ -52,7 +52,7 @@ async def pr(msg):
 
     message = "Pull Request #%s **%s** by %s: %s" % (pull_request["number"], action, sender["login"], pull_request["html_url"])
     
-    channel = getchannel(getserver(client, "/vg/"), "code-map-sprite")
+    channel = getchannel(getserver(client, "ATMTA-Station"), "coderchat")
     if not channel:
         logger.error("No channel.")
 
